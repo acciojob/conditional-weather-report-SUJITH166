@@ -14,7 +14,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setInfo({ temperature: 25, conditions: "Sunny" })
-    }, 1000)
+    }, 2000)
   })
 
   return (
