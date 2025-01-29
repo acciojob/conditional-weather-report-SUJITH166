@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './../styles/App.css';
 const def = {temperature : 0, conditions : "Cool"}
 const App = () => {
