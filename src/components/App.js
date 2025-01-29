@@ -2,7 +2,10 @@
 import React, { useEffect, useState } from "react";
 import './../styles/App.css';
 import WeatherDisplay from "./WeatherDisplay";
+
+
 const def = {temperature : 0, conditions : "Cool"}
+
 const App = () => {
 
   const[info, setInfo] = useState(def)
@@ -11,8 +14,8 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setInfo({ temperature: 25, conditions: "Sunny" })
-    }, 2000)
-  },[])
+    }, 1000)
+  })
 
   return (
     <div>
@@ -21,4 +24,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
