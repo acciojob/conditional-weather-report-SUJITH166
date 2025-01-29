@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 import './../styles/App.css';
+import WeatherDisplay from "./WeatherDisplay";
 const def = {temperature : 0, conditions : "Cool"}
 const App = () => {
 
